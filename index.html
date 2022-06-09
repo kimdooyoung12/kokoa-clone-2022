@@ -26,20 +26,22 @@
         </div>
     </div>
 
-    <header clss="welcome-header">
+    <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to kokoa clone</h1>
         <p class="welcome-header__text">
             If you have a kokoa Account,<br>log in with your email or phone number.
         </p>
     </header>
 
-    <form action="#" method="get" id="login-form">
-        <input type="text" name="id" id="id" placeholder="Email or phone number">
+    <form id="login-form">
+        <input type="text" name="id" id="id" placeholder="Email or phone number" autocomplete="off" required >
         <input type="password" name="password" id="password" placeholder="Password">
         <input type="submit" value="Log In">
-        <input type="submit" value="Sign up">
-        <a href="#">Find kokoa Account or Password</a>
     </form>
+    
+    <footer class="footer">
+        <button type="submit">Sign up</button>
+        <a href="#">Find kokoa Account or Password</a>
+    </footer>
 </body>
-
 </html>
