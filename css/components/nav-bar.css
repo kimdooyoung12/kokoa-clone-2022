@@ -1,0 +1,54 @@
+/*last icon size*/
+.nav-li__last{
+    font-size: 20px;
+}
+/*nav start*/
+.nav{
+    width: 100%;
+    padding: 20px 40px;
+    background: #f9f9f9;
+    box-shadow: 0px -1px 3px rgb(228, 228, 228);
+    position: fixed;
+    bottom: 0;
+}
+.nav__ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__a__02,
+.nav__a__04{
+    position: relative;
+}
+
+.nav__notification{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: tomato;
+    color: white;
+    position: absolute;
+    bottom: 7px;
+    left: 15px;
+    font-size: 15px;
+}
+.nav__notification__2{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: tomato;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+.nav__a__02,
+.nav__a__03,
+.nav__a__04{
+    color: rgb(152, 152, 152);
+}
