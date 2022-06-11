@@ -9,6 +9,8 @@
     height: 70px;
     border-radius: 28px;
     margin-right: 20px;
+    background: url(/screenshots/column.jpeg);
+    background-size: cover;
 }
 .user-component__title{
     font-weight: 600;
