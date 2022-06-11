@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 25px 40px 25px;
-    background: white;
+    padding: 25px;
 }
 
 .header__title{
