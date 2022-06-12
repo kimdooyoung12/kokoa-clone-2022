@@ -15,3 +15,18 @@
 .friends-screen{
     padding: 0 var(--horizontal-space);
 }
+
+.friends-screen{
+    padding: 0 var(--horizontal-space);
+}
+
+
+.friends-screen__channel-header{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 15px 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
