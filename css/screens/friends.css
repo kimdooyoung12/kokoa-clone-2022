@@ -3,6 +3,7 @@
     text-align: center;
     background: rgb(243, 243, 243);
     padding: 15px 0;
+    margin-bottom: 10px;
 }
 #friends-display-link i{
     color: rgba(0, 0, 0, 0.3);
@@ -10,4 +11,7 @@
     position: relative;
     top: 2px;
     font-size: 18px;
+}
+.friends-screen{
+    padding: 0 var(--horizontal-space);
 }
