@@ -8,3 +8,11 @@
     background: tomato;
     color: white;
 }
+.badge__me{
+    padding: 3.5px 4px;
+    font-size: 12px;
+    border-radius: 50%;
+    background: darkgray;
+    color: white;
+    margin-right: 10px;
+}
