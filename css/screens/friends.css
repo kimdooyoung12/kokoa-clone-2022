@@ -4,6 +4,7 @@
     background: rgb(243, 243, 243);
     padding: 15px 0;
     margin-bottom: 10px;
+    margin-top: -15px;
 }
 #friends-display-link i{
     color: rgba(0, 0, 0, 0.3);

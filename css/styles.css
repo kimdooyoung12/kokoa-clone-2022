@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
 /* screens */
 @import "screens/login.css";
@@ -25,6 +26,7 @@ body{
 .main-screen{
     padding: 0 var(--horizontal-space);
 }
+
 
 /*.header-fix{
     position: fixed;
