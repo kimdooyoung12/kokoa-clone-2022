@@ -1,0 +1,23 @@
+.icon-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: rgba(0, 0, 0, 0.6);
+    border-bottom: var(--main-border);
+}
+
+.icon-row__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon-row__icons i{
+    font-size: 30px;
+}
+.icon-row__icons span{
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+}
