@@ -16,3 +16,17 @@
     color: white;
     margin-right: 10px;
 }
+
+.badge-setting{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: tomato;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+}
