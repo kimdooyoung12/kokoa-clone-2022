@@ -1,0 +1,36 @@
+.header-setting{
+    font-size: 25px;
+    
+}
+.header-setting h2{
+    font-weight: 500;
+}
+
+.settings{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: var(--main-border);
+}
+.settings-header__list ul{
+    margin:0 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.settings-header__list li{
+    padding: 20px 0;
+}
+
+
+.settings-header__list span{
+    margin-left: 20px;
+}
+
+.settings-header__version-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settings-header__version-column{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
